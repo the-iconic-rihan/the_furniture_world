@@ -1,0 +1,473 @@
+ *{ margin: 0;
+  text-transform: none;
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+/* the styling of css */
+
+/* styling header */
+header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* styling navbar */
+.navbar {
+  align-items: center;
+  display: block;
+  position: sticky;
+  background-color: rgba(144, 144, 240, 0.678);
+  max-width: 100%;
+  font-size: 1.2vw;
+}
+/* hamberger */
+#menu {
+  left: 43%;
+  cursor: pointer;
+  display:inline-flex;
+}
+fa-bars:before {
+  content: "\f0c9";
+  padding-left: 0.4em;
+  font-size: 1.2vw;
+}
+/* styling anchore */
+.nav-tabs {
+  position: relative;
+  display: inline-flex;
+  text-decoration: none;
+  text-overflow: none;
+  list-style-type: none;
+  padding: 1vw 4vw ;
+
+}
+.nav-tabs:hover{
+color: snow;
+background-color: burlywood;
+}
+
+/* styling home section */
+.home {
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative;
+  display: inline-flex;
+  max-height: 100vh;
+}
+
+/* article of home section */
+
+.home-sub {
+ 
+  margin: 0vw 0vw 0vw 0vw;
+  padding: 4vw 8vw;
+  box-shadow: 0em 0.01em 0.01em 0em rgb(0 0 0 / 10%);
+}
+/* styling h1 of home section */
+h1 {
+  text-align: inherit;
+  font: bold "Spartan", "sans";
+  justify-content: space-between;
+  font-stretch: ultra-expanded;
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+  font-weight: 700;
+}
+/* styling the paragraph of home section */
+.info {
+  box-sizing: border-box;
+  font-size: 0.8vw;
+  text-align: left;
+  justify-content: space-around;
+  line-height: 1.2vw;
+  font-family: "Spartan", "sans";
+}
+/* styling shop now text */
+.shop {
+  margin-top: 2vw;
+  align-content: space-between;
+  text-align: justify;
+  letter-spacing: 0.8vw;
+  font-family: "Spartan", "sans";
+  font-weight: 500;
+  font-size: 0.8em;
+  flex-direction: row;
+  display: inline-table;
+
+}
+
+.shop:hover{
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.801);
+}
+
+
+/* styling right arrow logo */
+.right-arrow {
+  position: absolute;
+  display: inline-flex;
+  margin: 1.3vw;
+  font-size: 1.4em;
+  font-weight: 400;
+  padding-left: 1.3vw;
+  padding-top: 0.2vw;
+  cursor: pointer;
+}
+
+.right-arrow:hover{
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.801);
+}
+
+/* styling side image */
+
+.left-image{
+  padding-top: 2vw; 
+}
+
+
+/* styling the id="desktop-image-hero-1 image */
+.desktop-image-hero-1 {
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 40vw;
+  padding-bottom: 1rem;
+}
+
+
+/* styling about section */
+.about {
+  padding: 2vw 2vw;
+}
+
+#pad-in-section {
+  padding: 1vw 1vw;
+}
+#intro {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 70vh;
+  width: 50vw;
+}
+
+#flex-direction{
+  flex-flow: row-reverse;
+  padding-bottom: 1vw;
+  margin-right: 1rem;
+}
+
+/* styling of the heading of support stuff like fQA & Contact us */
+
+.support-heading {
+  font-family: "Spartan", sans-serif;
+  color: black;
+}
+
+.faq-container {
+  font-family: "Spartan";
+  width: 100%;
+  max-width: 80rem;
+}
+
+/* brackets */
+.support-heading::before,
+.support-heading::after {
+  content: "";
+  font-size: 3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font: "Spartan", "sans";
+  position: relative;
+  z-index: -1;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.support-heading::before {
+  content: "[";
+  height: 50rem;
+  width: 50rem;
+  color: rebeccapurple;
+  border-bottom-left-radius: 50%;
+}
+
+hr {
+  background-color: rebeccapurple;
+  width: 10vw;
+  padding: 0.1vw;
+  border-radius: 2vw;
+}
+
+.support-heading::after {
+  content: "]";
+  height: 60rem;
+  width: 60rem;
+  color: rebeccapurple;
+}
+
+/* the faq image styling  */
+
+#women-on-pc {
+  position: relative;
+  display:inline-table;
+  box-sizing: border-box;
+  overflow: scroll;
+  margin: 0vw 4vw 4vw 0vw;
+  padding-top: 10vw;
+  width: 100%;
+  box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgba(248, 248, 248, 0.884);
+}
+
+/* the faq section */
+
+.faq {
+  margin: 2vw;
+  padding: 0 auto;
+  box-sizing: border-box;
+  max-width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 1vw;
+}
+
+.questions {
+  max-width: 40vw;
+  padding-top: 0vw;
+}
+
+/* container of faq question */
+.container {
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  max-width: 80rem;
+  margin: 0;
+  padding: 0vw 1.5vw;
+}
+
+/*styling of accordion-item */
+
+.accordion-item {
+  background-color: rgba(247, 252, 252, 0.986);
+  margin-top: 1vw;
+  border-radius: 1.2vw;
+  max-width: 40vw;
+  box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw whitesmoke;
+}
+
+/* styling of anchors in faqs */
+
+.accordian-link {
+  text-decoration: none;
+  font-size: 1vw;
+  max-width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+/* styling the logos of +/- */
+.fa-plus {
+  color: rgba(127, 255, 212, 0.61);
+  padding: 3vw;
+}
+
+.fa-minus {
+  display: none;
+  padding-left: 3vw;
+}
+
+/* styling the answer section */
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+  transition: min-height 650ms;
+}
+
+.answer::before {
+  content: "";
+  position: absolute;
+  width: 0.6rem;
+  height: 10%;
+  bottom: auto;
+  left: 0;
+  transform: translateY(50%);
+}
+/* styling the paragraph of answer */
+.answer p {
+  font-size: 1vw;
+  color: black;
+}
+
+/* by click on question */
+
+.accordion-item:target .answer {
+  max-height: 5rem;
+  max-width: 50rem;
+}
+
+.accordion-item:target .accordian-link .fa-plus {
+  display: none;
+}
+
+.accordion-item:target .accordian-link .fa-minus {
+  display: inline-block;
+}
+
+/*     Contact Section Start  */
+
+.contact {
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+#hr {
+  background-color: rebeccapurple;
+  width: 10vw;
+  padding: 1vw;
+  border-radius: 2vw;
+  display: inline-block;
+  align-content: center;
+}
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .row .image img {
+  height: 70vh;
+  width: 50vw;
+}
+
+.contact .row .form-container {
+  width: 50%;
+  text-align: left;
+  padding: 0 5rem;
+}
+
+.contact .row .form-container input,
+textarea {
+  outline: none;
+  border: none;
+  height: 2rem;
+  background: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+  padding: 0 1rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.contact .row .form-container .inputBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .row .form-container .inputBox input[type="text"] {
+  width: 49%;
+}
+
+.contact .row .form-container input[type="email"] {
+  width: 100%;
+}
+
+.contact .row .form-container textarea {
+  width: 100%;
+  height: 20rem;
+  padding: 1rem;
+  resize: none;
+}
+
+.contact .row .form-container button[type="submit"] {
+  background-color: rgb(223, 199, 247);
+  color: rgb(41, 39, 39);
+  cursor: pointer;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 1vw;
+  font-family: "Spartan", sans-serif;
+}
+
+.contact .row .form-container button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/*     Contact Section Ends     */
+/* footer */
+
+footer{
+  background-color: rgba(144, 144, 240, 0.678);
+  max-width: 100%;
+  padding: 2vw;
+  font-family: "Spartan", sans-serif;
+  font-size: 1vw;
+}
+
+/* styling the frontend name */
+footer .challenge-in{
+  display:inline-flex;
+  position:relative;
+  width: 50%;
+  margin-right: 5vw;
+  align-items:flex-start;
+  padding-top: 2.5vw;
+  justify-content: center;
+  padding-left: 5vw;
+}
+footer .challenge-in a{
+  text-decoration: none;
+} 
+
+footer .challenge-in a:hover{
+  cursor: pointer;
+  color: rgba(163, 162, 162, 0.527);
+}
+
+/* styling the programmer info */
+ #profile{
+  display:inline-block;
+  align-items: center;
+  position:relative;
+  padding-left:5%;
+  right:-30%;
+  width:55%;
+}
+footer article{
+  display:flex;
+  float: right;
+  padding-top: 3vw;
+  position: relative;
+}
+footer article a{
+  text-decoration: none;
+}
+
+footer article a:hover{
+  cursor: pointer;
+  color: rgba(163, 162, 162, 0.527);
+}
+footer .social-accounts{
+  padding-right: 0.5vw;
+  padding-left: 0.2vw;
+}
+footer .copyright{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2vw;
+  padding-left:1vw ;
+}
+
+/* desktop css ends... */
